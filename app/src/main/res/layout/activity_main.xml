@@ -1,0 +1,63 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".MainActivity"
+    android:background="@drawable/background_login"
+    android:gravity="top|center"
+    android:orientation="vertical">
+
+
+    <ImageView
+        android:layout_marginTop="50dp"
+        android:id="@+id/logo"
+        android:layout_width="321dp"
+        android:layout_height="98dp"
+        android:layout_above="@id/perintah"
+        android:layout_marginBottom="330dp"
+        android:src="@drawable/logowhite" />
+
+    <TextView
+        android:id="@+id/perintah"
+        android:layout_width="319dp"
+        android:layout_height="wrap_content"
+        android:layout_marginBottom="40dp"
+        android:fontFamily="@font/neuzeit"
+        android:gravity="center"
+        android:text="Masuk ke Akun Anda"
+        android:textColor="@color/white"
+        android:textSize="24dp" />
+
+    <Button
+        android:id="@+id/loginButton"
+        android:layout_width="201dp"
+        android:layout_height="46dp"
+        android:background="@android:color/transparent"
+        android:fontFamily="@font/josefin"
+        android:text="L O G I N"
+        android:textColor="@color/white"
+        android:textSize="17dp" />
+
+    <ImageView
+        android:layout_width="119dp"
+        android:layout_height="21dp"
+        android:layout_below="@id/perintah"
+        android:layout_centerHorizontal="true"
+        android:src="@drawable/or" />
+
+    <Button
+        android:id="@+id/registerButton"
+        android:layout_width="203dp"
+        android:layout_height="42dp"
+        android:background="@android:color/transparent"
+        android:fontFamily="@font/josefin"
+        android:text="R E G I S T E R"
+        android:textColor="@color/white"
+        android:textSize="17dp" />
+
+
+
+
+</LinearLayout>
